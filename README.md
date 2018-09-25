@@ -61,4 +61,11 @@ sudo apt-get update
 ```
 
 ## 5.构建开发环境hello world.c编译运行
+```
+sudo apt-get install gcc
+vim helloworld.c
+gcc helloworld.c -o helloworld
+./helloworld
+```
+
 ## 6.安装taglist，在vim中呈现函数列表
