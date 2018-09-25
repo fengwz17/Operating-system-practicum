@@ -32,6 +32,20 @@ https://www.ubuntu.com/download/server
 按这个教程做可以实现共享文件夹，应该是已经安装了需要的插件，但是在“设备”那一项的“安装增强插件”依然提示问题，可能是因为使用的是ubuntu server版本
 
 ## 3.在宿主机上用ssh访问到ubuntu
+设备-网络-网卡1-网络地址转换（NAT）
+
+端口转发-主机端口22-子系统端口22
+
+在windows的cmd中直接ssh到root无法成功密码登陆
+```
+cat /etc/ssh/sshd_config
+```
+修改为 PermitRootLogin yes
+```
+systemctl
+
+systemctl restart sshd
+```
 ## 4.更新国内apt更新源mirriors
 ## 5.构建开发环境hello world.c编译运行
 ## 6.安装taglist，在vim中呈现函数列表
