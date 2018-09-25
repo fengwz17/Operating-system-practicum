@@ -55,6 +55,10 @@ cp /etc/apt/sources.list /etc/apt/sources.list.backup
 ```
 vim /etc/apt/sources.list
 ```
+更新生效
+```
+sudo apt-get update
+```
 
 ## 5.构建开发环境hello world.c编译运行
 ## 6.安装taglist，在vim中呈现函数列表
