@@ -6,6 +6,7 @@ Guan ye
 
 ## 1.安装virtual box和ubuntu 18.04 server
 https://www.virtualbox.org/wiki/Downloads
+
 https://www.ubuntu.com/download/server
 
 ## 2.在ubuntu中共享宿主机的一个目录
