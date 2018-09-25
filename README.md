@@ -47,5 +47,14 @@ systemctl
 systemctl restart sshd
 ```
 ## 4.更新国内apt更新源mirriors
+先备份
+```
+cp /etc/apt/sources.list /etc/apt/sources.list.backup
+```
+修改文件
+```
+vim /etc/apt/sources.list
+```
+
 ## 5.构建开发环境hello world.c编译运行
 ## 6.安装taglist，在vim中呈现函数列表
