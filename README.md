@@ -5,6 +5,9 @@ Guan ye
 9.19
 
 ## 1.安装virtual box和ubuntu 18.04 server
+https://www.virtualbox.org/wiki/Downloads
+https://www.ubuntu.com/download/server
+
 ## 2.在ubuntu中共享宿主机的一个目录
 ## 3.在宿主机上用ssh访问到ubuntu
 ## 4.更新国内apt更新源mirriors
