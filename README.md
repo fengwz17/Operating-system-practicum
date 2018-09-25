@@ -69,3 +69,22 @@ gcc helloworld.c -o helloworld
 ```
 
 ## 6.安装taglist，在vim中呈现函数列表
+下载taglist_46.zip在windows的共享文件夹中
+
+解压，将文件复制到对应文件夹
+```
+sudo cp /mnt/serverShare/taglist_46/doc/taglist.txt /usr/share/vim/vim80/doc/
+sudo cp /mnt/serverShare/taglist_46/plugin/taglist.vim /usr/share/vim/vim80/plugin/
+```
+改动vim配置文件
+```
+sudo vim /etc/vim/vimrc
+```
+最后加入如下内容
+```
+"""taglist设置"""
+let Tlist_Auto_Open = 1
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+```
